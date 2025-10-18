@@ -53,7 +53,7 @@ class HandTracker():
         # Request a higher FPS
         cap.set(cv2.CAP_PROP_FPS, 60)  # try 60 FPS if your camera supports it
 
-        # Check what FPS the camera actually uses
+        # Check what the max FPS is your camera
         fps = cap.get(cv2.CAP_PROP_FPS)
         print(f"Camera FPS: {fps}")
 
