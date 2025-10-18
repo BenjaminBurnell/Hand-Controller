@@ -1,7 +1,6 @@
 from screeninfo import get_monitors
 import hand
 
-
 if __name__ == "__main__":
     # --- Display monitor info ---
     for monitor in get_monitors():
